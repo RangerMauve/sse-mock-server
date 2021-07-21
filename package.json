@@ -1,6 +1,7 @@
 {
   "name": "sse-mock-server",
   "version": "1.0.0",
+  "private": true,
   "description": "Server Sent Events server that sends out fake data",
   "main": "index.js",
   "scripts": {
