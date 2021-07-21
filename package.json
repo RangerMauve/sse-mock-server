@@ -1,0 +1,19 @@
+{
+  "name": "sse-mock-server",
+  "version": "1.0.0",
+  "description": "Server Sent Events server that sends out fake data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/sse-mock-server.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/sse-mock-server/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/sse-mock-server#readme"
+}

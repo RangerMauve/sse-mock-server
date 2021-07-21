@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<title>SSE-Mock-Server</title>
+<pre>
+Events:
+</pre>
+<script>
+	const source = new EventSource('./example')
+	const pre = document.querySelector('pre')
+
+	source.onmessage = (e) => {
+	  console.log(e)
+		pre.innerText += `\ndata: ${e.data}`
+	}
+</script>
